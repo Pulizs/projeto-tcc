@@ -111,6 +111,17 @@
                                         <path d="M7.001 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0" />
                                     </svg></a>
                             </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" aria-disabled="true" href="sobreNos.html">Sobre <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-people" viewBox="0 0 16 16">
+                                        <path
+                                            d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                                    </svg></a>
+
+                            </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="configuracoes.html">Configurações <svg
                                         xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -136,54 +147,143 @@
         <br>
 
     </header>
-
-    <div class="fixed-top">
-        <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-            <img src="images/test1.jpeg" style="border-radius: 50%; width: 80px; bottom: 0%; height: 80px;" alt="">
-        </a>
-    </div>
-
+    <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="images/test1.jpeg"
+                    style="border-radius: 50%; width: 80px; bottom: 0%; height: 80px; margin-left: 5%;" alt="">
+                <h4 style="margin-left: 5%;">Pulizs</h4>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </a>
     <div class="container">
-        <h1 style="font-family: Quicksand;">Configurações</h1>
-        <br><br>
-        <div class="row">
-            <div class="col-md-3">
-                <label for="inputEmail4" class="form-label">Alterar Email</label>
-                <input type="text" class="form-control" placeholder="seuemail@gmail.com" aria-label="username">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
+                    images, lists, etc.
+                </div>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-3">
-                <label for="inputEmail4" class="form-label">Alterar Telefone</label>
-                <input type="text" class="form-control" placeholder="(41) 00000-0000" aria-label="username">
+
+        <center>
+            <h2>Controle de Usuários</h2>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="images/test4.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Francisco Jr</h5>
+                            <p class="card-text">@Junin157</p>
+                            <div class="btn-group">
+                                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Bolsista Lv.1
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item active">ADM</a></li>
+                                    <li><a class="dropdown-item ">Professor</a></li>
+                                    <li><a class="dropdown-item">Bolsista Lv.2</a></li>
+                                    <li><a class="dropdown-item">Bolsista Lv.1</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/test4.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Carol</h5>
+                            <p class="card-text">@carolzinha</p>
+                            <div class="row">
+                                <div class="col">
+
+                                    <div class="btn-group">
+                                        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            ADM
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item active">ADM</a></li>
+                                            <li><a class="dropdown-item ">Professor</a></li>
+                                            <li><a class="dropdown-item">Bolsista Lv.2</a></li>
+                                            <li><a class="dropdown-item">Bolsista Lv.1</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><br>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="alterarCargo.html"><button type="button" class="btn btn-success">Alterar</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/test4.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Deise</h5>
+                            <p class="card-text">@deise</p>
+                            <div class="btn-group">
+                                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Professor(a)
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item active">ADM</a></li>
+                                    <li><a class="dropdown-item ">Professor</a></li>
+                                    <li><a class="dropdown-item">Bolsista Lv.2</a></li>
+                                    <li><a class="dropdown-item">Bolsista Lv.1</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/test4.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Leonardo Pereira</h5>
+                            <p class="card-text">@leleo</p>
+                            <div class="btn-group">
+                                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Bolsista Lv.2
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item active">ADM</a></li>
+                                    <li><a class="dropdown-item ">Professor</a></li>
+                                    <li><a class="dropdown-item">Bolsista Lv.2</a></li>
+                                    <li><a class="dropdown-item">Bolsista Lv.1</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <label for="inputEmail4" class="form-label">Alterar Senha</label>
-                <input type="text" class="form-control" aria-label="username">
-            </div>
-        </div><br>
-        <div class="row">
-            <h4 style="font-family: Quicksand;">Aparência</h4>
-            <div class="form-check form-switch">
-                <label class="form-check-label" for="flexSwitchCheckDefault">Modo Escuro</label>
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-              </div>
-        </div><br>
-        <div class="row">
-            <h4 style="font-family: Quicksand;">Notificações</h4>
-            <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-                <label class="form-check-label" for="flexSwitchCheckDefault">Alertas de novas postagens de materiais por email</label>
-              </div>
-        </div><br>
-        <div class="row">
-            <div class="col">
-                <button type="button" class="btn btn-success">Salvar</button>
-                <button type="button" class="btn btn-outline-secondary">Cancelar</button>
-            </div>
-        </div><br>
+        </center>
     </div>
 </body>
 
