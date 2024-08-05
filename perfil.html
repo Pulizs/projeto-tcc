@@ -150,10 +150,55 @@
                         <p>@pulizs</p>
                     </div>
                     <div class="col">
-                        <p>Seguidores: 0</p>
+                        <p type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Seguidores:
+                            0</p>
                     </div>
                     <div class="col">
-                        Seguindo: 2
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Seguindo: 2
+                        </button>
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Seguindo</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                                <img src="images/snoopy.png"
+                                                style="border-radius: 50%; width: 80px; bottom: 0%; height: 60px;"
+                                                alt="">
+                                            <div class="col">
+                                                <p>juninho157</p>
+                                            </div>
+                                            <div class="col">
+                                                <button type="button" class="btn btn-success">Seguir</button>
+                                            </div>
+                                        </div>
+                                        <div class="divider">
+                                            <hr class="divider">
+                                        </div>
+                                        <div class="row">
+                                                <img src="images/snoopy.png"
+                                                style="border-radius: 50%; width: 80px; bottom: 0%; height: 60px;"
+                                                alt="">
+                                            <div class="col">
+                                                <p>juninho157</p>
+                                            </div>
+                                            <div class="col">
+                                                <button type="button" class="btn btn-success">Seguir</button>
+                                            </div>
+                                        </div>
+                                        <div class="divider">
+                                            <hr class="divider">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -175,6 +220,8 @@
             </div>
             <div class="col">
                 <button type="button" class="btn btn-success">Seguir</button>
+
+
                 <a href="editProfile.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                         fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
                         <path
