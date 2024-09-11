@@ -147,14 +147,130 @@
     </header>
 
     <div class="container">
-      
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/andarDoBedado.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">O a=Andar do Bêbado</h5>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        <div class="row">
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/andarDoBedado.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">O Andar do Bêbado</h5>
+                        <span class="badge text-bg-primary">Livro</span>
+                        <span class="badge text-bg-warning">Verão</span>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/romanceDasEquacoes.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">O Romance das Equações Algébricas</h5>
+                        <span class="badge text-bg-primary">Livro</span>
+                        <span class="badge text-bg-warning">Verão</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/historiaDaMatematica.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">História da Matemática</h5>
+                        <span class="badge text-bg-primary">Livro</span>
+                        <span class="badge text-bg-warning">Verão</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- botão -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Launch static backdrop modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">O Andar do Bêbado</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col">
+                                <img src="images/andarDoBedado.jpg" alt="Card image cap" style="width: 12rem;">
+                            </div>
+
+                            <div class="col">
+                                <div class="row">
+                                    <p>Tipo: Livro</p>
+                                </div>
+
+                                <div class="row">
+                                    <p>Tílulo : O Andar do Bêbado</p>
+                                </div>
+
+                                <div class="row">
+                                    <p>Autor: Leonard Mlodinow</p>
+                                </div>
+
+                                <div class="row">
+                                    <p>Data de publicação: 2009</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="card">
+                                <div class="card-title">
+                                    <h4>Resenha</h4>
+                                </div>
+                                <div class="card-body">
+                                    <p>O Andar do Bêbado é o quarto livro do escritor estadunidense Leonard Mlodinow.
+                                        Foi publicado nos Estados Unidos da América em 13 de maio de 2008 com o título
+                                        de The Drunkard's Walk: How Randomness Rules Our Lives. Sua versão brasileira
+                                        saiu em 28 de julho de 2009 pela editora Jorge Zahar com tradução de Diego
+                                        Alfaro.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <br>
+
+                            <div class="row">
+                                <div class="card">
+                                    <div class="card-title">
+                                        <h4>Mais Informações</h4>
+                                    </div>
+                                        <p>Link da entrevista do autor da obra</p>
+                                        <iframe width="100%"
+                                            src="https://www.youtube.com/embed/ngNGBGa6Gfk?si=W06WYhdC1GR8NBJH"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+
+                                </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </div>
 
